@@ -1,13 +1,13 @@
 const production = {
-  test: "prod"
+  baseURL: "prod"
 };
 
 const uat = {
-  test: "uat"
+  baseURL: "uat"
 };
 
 const develop = {
-  test: "dev"
+  baseURL: "/api"
 };
 
 const config = {
