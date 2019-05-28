@@ -1,0 +1,38 @@
+$pc-media:1025px;
+$pad-media:1024px;
+$phone-media:767px;
+
+//電腦
+@mixin pc-width() {
+    @media screen and (min-width: $pc-media) {
+        @content;
+    }
+}
+
+//平板
+@mixin pad-width() {
+    @media screen and (max-width: $pad-media) {
+        @content;
+    }
+}
+
+//手機
+@mixin phone-width() {
+    @media screen and (max-width: $phone-media) {
+        @content;
+    }
+}
+
+// 使用方法
+// // 電腦版
+// @include pc-width{
+//     padding:20px;
+// }
+// // 平板
+// @include pad-width{
+//    padding:10px;
+// }
+// // 手機
+// @include phone-width{
+//    padding:0px;
+// }

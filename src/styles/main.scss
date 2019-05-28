@@ -1,0 +1,7 @@
+// normalize
+@import 'normalize-scss';
+@include normalize();
+
+// base style
+@import "variables";
+@import "mixins";
