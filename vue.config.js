@@ -21,7 +21,7 @@ module.exports = {
         },
         overlay: {
             // 針對eslint設定
-            warnings: true,
+            warnings: false,
             errors: true
         }
     }
